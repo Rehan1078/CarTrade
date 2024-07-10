@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Registerationprocess.EnterUsername">
+
+
+    <ImageView
+        android:id="@+id/imageOTP"
+        android:layout_width="205dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="@color/white"
+        android:src="@drawable/manage_accounts_orange"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/OTP"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="156dp"
+        android:layout_weight="5"
+        android:letterSpacing="0.08"
+        android:text="Enter Username"
+        android:textAlignment="center"
+
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageOTP" />
+
+    <EditText
+        android:id="@+id/login_username"
+        android:layout_width="316dp"
+        android:layout_height="44dp"
+
+        android:layout_margin="10dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/edit_text_rounded_corner"
+        android:elevation="5dp"
+        android:hint="Username"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textColor="@color/black"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/OTP" />
+
+    <Button
+
+        android:id="@+id/letmein"
+        android:layout_width="302dp"
+        android:layout_height="51dp"
+        android:background="@drawable/btn_rounded_corner"
+        android:text="Login"
+        android:backgroundTint="#FF6F00"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.559"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/login_username"
+        app:layout_constraintVertical_bias="0.598" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

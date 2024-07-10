@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "690185013386",
+    "project_id": "mycarshoppingapp",
+    "storage_bucket": "mycarshoppingapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690185013386:android:9b99c1def65ca7de94c573",
+        "android_client_info": {
+          "package_name": "com.example.mycarshoppingapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEzpS1i9fjYLGSWQdDzaR7BELI8roJSRY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
